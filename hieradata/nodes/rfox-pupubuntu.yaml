@@ -1,0 +1,7 @@
+---
+classes:
+  - mediawiki
+  - linux
+mediawiki::wikisitename: RFox-PupUbuntu_Wiki
+mediawiki::wikiserver: http://10.51.16.23
+mediawiki::wikidbname: RFox-PupUbuntu_wiki

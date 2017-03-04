@@ -1,0 +1,7 @@
+---
+classes:
+  - mediawiki
+  - linux
+mediawiki::wikisitename: RFox-CentOS_Wiki
+mediawiki::wikiserver: http://10.51.16.22
+mediawiki::wikidbname: RFox-PupCentOS_wiki

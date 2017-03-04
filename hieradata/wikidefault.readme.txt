@@ -1,0 +1,1 @@
+#The wikidefault.yaml is being called in the " - wikidefault " class in the default /etc/puppetlabs/puppet/hiera.yaml file.

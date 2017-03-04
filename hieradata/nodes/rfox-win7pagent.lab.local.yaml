@@ -1,0 +1,7 @@
+---
+classes:
+  - roles::windows_admin
+#  - mediawiki
+#mediawiki::wikisitename: RFox-Win7Pagent_Wiki
+#mediawiki::wikiserver: http://10.51.16.22
+#mediawiki::wikidbname: RFox-Win7Pagent_wiki

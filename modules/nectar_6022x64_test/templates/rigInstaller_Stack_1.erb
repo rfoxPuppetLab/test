@@ -1,0 +1,39 @@
+installName = Carousel 64-bit Installer
+genericInstallName = 64bit
+defaultDirectory = C:/Apps/carousel/
+# installerDirectory is used by installer only for reference;
+# Deployment of installer to this location is done during automatic extraction of installer...
+installerDirectory = %COMMONPROGRAMFILES%/UCF/carousel/6.0.2.2/64bit
+# logFileBaseName and defaultLogFilePathName are used by installer only for reference;
+# They should mirror actual values in etc/log4j2.xml...
+logFileBaseName = ucf_carousel_installer
+defaultLogFilePathName = %COMMONPROGRAMFILES%/UCF/ucf_carousel_installer.log
+jreArchitecture = 64-bit
+jreType = HotSpot
+type = RIG
+release = 6.0.2.2
+rigArchiveFile = rigInstall.zip
+destinationCIP = carousel-cip1.nectarvoip.com
+PA.destinationCIP = perspectiveController
+destinationPort = 443
+primaryLogin = rigSatellite
+PA.primaryLogin = paSatellite
+primaryPassword = rigSatellite
+PA.primaryPassword = paSatellite
+mainServiceName = CarouselRIG
+mainDescription = Carousel RIG Server
+backupServiceName = CarouselRIGBackup
+backupDescription = Carousel RIG Backup
+customer = "<%= @propscustomer %>"
+site = "<%= @propssite %>"
+partnerName = Carousel
+partnerDirectoryName = carousel
+minimumMemory = 0
+PA.minimumMemory = 2000
+MPA.minimumMemory = 8000
+inputHomeServer = false
+PA.inputHomeServer = true
+installDB = false
+correctServiceNames = false
+description = "<%= @propsdescription %>"
+serverName = "<%= @propsservername %>"

@@ -1,0 +1,7 @@
+---
+classes:
+  - nectar_6022x64_test
+nectar_6022x64_test::propscustomer:  RFox-Customer
+nectar_6022x64_test::propssite: RFox-Site
+nectar_6022x64_test::propsdescription: RFox-Description
+nectar_6022x64_test::propsservername: RFox-ServerName
