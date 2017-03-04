@@ -94,8 +94,8 @@ class nectar_6022x64_test {
 ##    extract      => true,
 ##    extract_path => 'C:/Program Files (x86)/Common Files/UCF/carousel/6.0.1/64bit',
 ##    source => 'http://www.foxcom.us/puppet/CAROUSEL-UCF-64bit-Installer-6.0.1.exe',
-##    username => 'Carousel',
-##    password => 'Sm@rtP01nt#',
+##    username => '',
+##    password => '',
 ##  }
 
 ## Process the creation of the rigInstaller_Stack_1.props file before kicking off the installer.bat 
